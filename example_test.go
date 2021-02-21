@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tkuchiki/go-timezone"
+	"github.com/backyio/go-timezone"
 )
 
 func ExampleTimezone_GetTzAbbreviationInfo() {
