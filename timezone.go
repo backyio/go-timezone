@@ -25,6 +25,12 @@ type Timezone struct {
 	timezones   map[string][]string
 }
 
+var Default *Timezone
+
+func init() {
+	Default = New()
+}
+
 // New creates a new Timezone.
 func New() *Timezone {
 	return &Timezone{
